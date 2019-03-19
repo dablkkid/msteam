@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_team_group</internal_name>
+        <label_cache>[{"name":"{{action.bearer}}","label":"action➛bearer","type":"action","ref":""},{"name":"{{action.group_description}}","label":"action➛group_description","type":"action","ref":""},{"name":"{{action.group_displayname}}","label":"action➛group_displayName","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Create Team Group</name>
+        <outputs/>
+        <parent_action display_value="Create Team Group">dcdc7ce5db503300f870f26b68961969</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 21:24:38</sys_created_on>
+        <sys_id>0efdb069db503300f870f26b6896199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Team Group</sys_name>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_0efdb069db503300f870f26b6896199f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 21:24:38</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=0efdb069db503300f870f26b6896199f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0efdb069db503300f870f26b6896199f"/>
+</record_update>

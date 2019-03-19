@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_auth_token_(bearer)</internal_name>
+        <label_cache>[{"name":"{{step[9aff9edb-4216-4c21-9530-f85b555f7eb7].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[e52da1c1-2fb7-4740-add3-4127320bca7d].}}","label":"step➛Script step➛","type":"step","ref":""},{"name":"{{step[e52da1c1-2fb7-4740-add3-4127320bca7d].b}}","label":"step➛Script step➛b","type":"step","ref":""},{"name":"{{step[e52da1c1-2fb7-4740-add3-4127320bca7d].be}}","label":"step➛Script step➛be","type":"step","ref":""},{"name":"{{step[e52da1c1-2fb7-4740-add3-4127320bca7d].bea}}","label":"step➛Script step➛bea","type":"step","ref":""},{"name":"{{step[e52da1c1-2fb7-4740-add3-4127320bca7d].bear}}","label":"step➛Script step➛bear","type":"step","ref":""},{"name":"{{step[e52da1c1-2fb7-4740-add3-4127320bca7d].beare}}","label":"step➛Script step➛beare","type":"step","ref":""},{"name":"{{step[e52da1c1-2fb7-4740-add3-4127320bca7d].bearer}}","label":"step➛Script step➛bearer","type":"step","ref":""},{"name":"{{step[9aff9edb-4216-4c21-9530-f85b555f7eb7].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>fe8b34e5db503300f870f26b689619f1</latest_snapshot>
+        <master_snapshot>2ce5b8a1db503300f870f26b689619ea</master_snapshot>
+        <name>Get Auth Token (bearer)</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 19:59:20</sys_created_on>
+        <sys_id>ec7ae0a9db103300f870f26b6896190c</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Get Auth Token (bearer)</sys_name>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_ec7ae0a9db103300f870f26b6896190c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 21:14:03</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=ec7ae0a9db103300f870f26b6896190c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ec7ae0a9db103300f870f26b6896190c"/>
+    <sys_element_mapping action="delete_multiple" query="id=ec7ae0a9db103300f870f26b6896190c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bearer</field>
+        <id>ec7ae0a9db103300f870f26b6896190c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 21:04:07</sys_created_on>
+        <sys_id>21497465db503300f870f26b689619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 21:04:07</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec7ae0a9db103300f870f26b6896190c</table>
+        <value>{{step[e52da1c1-2fb7-4740-add3-4127320bca7d].bearer}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>ec7ae0a9db103300f870f26b6896190c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 21:04:07</sys_created_on>
+        <sys_id>e1497465db503300f870f26b689619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 21:04:07</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec7ae0a9db103300f870f26b6896190c</table>
+        <value>{{step[9aff9edb-4216-4c21-9530-f85b555f7eb7].status_code}}</value>
+    </sys_element_mapping>
+</record_update>

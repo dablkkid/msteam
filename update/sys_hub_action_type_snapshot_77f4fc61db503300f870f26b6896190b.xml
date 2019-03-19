@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_auth_token_(bearer)</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>Get Auth Token (bearer)</name>
+        <outputs/>
+        <parent_action display_value="Get Auth Token (bearer)">ec7ae0a9db103300f870f26b6896190c</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 20:45:26</sys_created_on>
+        <sys_id>77f4fc61db503300f870f26b6896190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Auth Token (bearer)</sys_name>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_77f4fc61db503300f870f26b6896190b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 20:45:26</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=77f4fc61db503300f870f26b6896190b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=77f4fc61db503300f870f26b6896190b"/>
+</record_update>

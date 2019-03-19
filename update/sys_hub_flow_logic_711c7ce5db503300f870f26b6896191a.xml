@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">391c7ce5db503300f870f26b68961918</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Get Authentication Token from MS">7d3ba8a9db103300f870f26b68961910</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2.1</order>
+        <outputs_assigned>bearer</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id>f7944a97-e220-493c-a276-7ab7d4ac80b7</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 21:16:25</sys_created_on>
+        <sys_id>711c7ce5db503300f870f26b6896191a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_711c7ce5db503300f870f26b6896191a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 21:28:00</sys_updated_on>
+        <ui_id>986cca90-a4d3-4481-a079-29377d17afcd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=711c7ce5db503300f870f26b6896191a"/>
+    <sys_element_mapping action="delete_multiple" query="id=711c7ce5db503300f870f26b6896191a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bearer</field>
+        <id>711c7ce5db503300f870f26b6896191a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 21:16:25</sys_created_on>
+        <sys_id>fd1c7ce5db503300f870f26b6896191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 21:16:25</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_7d3ba8a9db103300f870f26b68961910</table>
+        <value>{{44ed8edc-1965-4bb3-ae64-604231d78594.bearer}}</value>
+    </sys_element_mapping>
+</record_update>
