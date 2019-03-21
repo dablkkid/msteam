@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>add_member_of_allocated_resource_plan_in_ms_teams_team</internal_name>
+        <label_cache>[{"name":"17f36d1b-c97a-4b1f-bf24-7a1cfa1fc35f.errormessage","label":"1➛errormessage","reference_display":"errormessage","type":"string","base_type":"string"},{"name":"17f36d1b-c97a-4b1f-bf24-7a1cfa1fc35f.status","label":"1➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"17f36d1b-c97a-4b1f-bf24-7a1cfa1fc35f.bearer","label":"1➛bearer","type":"string","base_type":"string"},{"name":"44c65db7-0b1d-4342-8c03-fd36ca80081f.item.u_domainsysid","label":"4➛Members list Record➛domainsysid","reference":"","reference_display":"domainsysid","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"u_domainsysid"},{"name":"6864a787-06ed-4338-8a5d-5e8c8e908937.Record.u_ms_teams_groupid","label":"2➛Task Record➛ms teams groupid","reference":"","reference_display":"ms teams groupid","type":"string","base_type":"string","parent_table_name":"task","column_name":"u_ms_teams_groupid"},{"name":"870ca8ab-3650-4808-b77c-f6650dd7c3e7.statuscode","label":"4.1➛statuscode","reference_display":"statuscode","type":"string","base_type":"string"},{"name":"870ca8ab-3650-4808-b77c-f6650dd7c3e7.errormessage","label":"4.1➛errormessage","reference_display":"errormessage","type":"string","base_type":"string"},{"name":"44c65db7-0b1d-4342-8c03-fd36ca80081f.item","label":"4➛Members list Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Updated_1.current.members_list","label":"Trigger➛Resource Plan Record➛Members list","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"resource_plan","column_name":"members_list"},{"name":"Updated_1.table_name","label":"Trigger➛Resource Plan Table","reference":"resource_plan","reference_display":"Resource Plan","type":"table_name","base_type":"table_name"},{"name":"e0421de3-d7bc-4d83-a353-95c3a32bcc55.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"e0421de3-d7bc-4d83-a353-95c3a32bcc55.Table","label":"3➛Resource Plan Table","reference":"resource_plan","reference_display":"Resource Plan","type":"table_name","base_type":"table_name"},{"name":"e0421de3-d7bc-4d83-a353-95c3a32bcc55.Records","label":"3➛Resource Plan Records","reference":"resource_plan","reference_display":"Resource Plan","type":"records","base_type":"records"},{"name":"Updated_1.current.task.u_ms_teams_groupid","label":"Trigger➛Resource Plan Record➛Task➛ms teams groupid","reference":"","reference_display":"ms teams groupid","type":"string","base_type":"string","parent_table_name":"task","column_name":"u_ms_teams_groupid"},{"name":"6864a787-06ed-4338-8a5d-5e8c8e908937.Table","label":"2➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name"},{"name":"6864a787-06ed-4338-8a5d-5e8c8e908937.Record","label":"2➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference"},{"name":"ca412e03-2e39-40f0-b359-78d9cc2cd09b.errormessage","label":"1➛errormessage","reference_display":"errormessage","type":"string","base_type":"string"},{"name":"ca412e03-2e39-40f0-b359-78d9cc2cd09b.statuscode","label":"1➛statuscode","reference_display":"statuscode","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>Add member of Allocated Resource Plan in MS Teams Team</name>
+        <outputs/>
+        <parent_flow display_value="Add member of Allocated Resource Plan in MS Teams Team">04289942db543b00f870f26b6896195d</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 15:10:46</sys_created_on>
+        <sys_id>859bfd42db987b00f870f26b68961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add member of Allocated Resource Plan in MS Teams Team</sys_name>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_859bfd42db987b00f870f26b68961906</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 15:10:46</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=859bfd42db987b00f870f26b68961906"/>
+    <sys_variable_value action="delete_multiple" query="document_key=859bfd42db987b00f870f26b68961906"/>
+</record_update>

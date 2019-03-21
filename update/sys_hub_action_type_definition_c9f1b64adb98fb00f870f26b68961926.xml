@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>dcdc7ce5db503300f870f26b68961969</copied_from>
+        <copied_from_name>Create Team Group</copied_from_name>
+        <description/>
+        <internal_name>get_team_site_url</internal_name>
+        <label_cache>[{"name":"{{action.projectname}}","label":"action➛projectname","type":"action","ref":""},{"name":"{{step[5b8c8c75-846a-4263-a342-4072f0ee21f4].t}}","label":"step➛Script step➛t","type":"step","ref":""},{"name":"{{step[5b8c8c75-846a-4263-a342-4072f0ee21f4].te}}","label":"step➛Script step➛te","type":"step","ref":""},{"name":"{{step[5b8c8c75-846a-4263-a342-4072f0ee21f4].tea}}","label":"step➛Script step➛tea","type":"step","ref":""},{"name":"{{step[5b8c8c75-846a-4263-a342-4072f0ee21f4].team}}","label":"step➛Script step➛team","type":"step","ref":""},{"name":"{{step[5b8c8c75-846a-4263-a342-4072f0ee21f4].teams}}","label":"step➛Script step➛teams","type":"step","ref":""},{"name":"{{step[5b8c8c75-846a-4263-a342-4072f0ee21f4].teamsi}}","label":"step➛Script step➛teamsi","type":"step","ref":""},{"name":"{{step[5b8c8c75-846a-4263-a342-4072f0ee21f4].teamsit}}","label":"step➛Script step➛teamsit","type":"step","ref":""},{"name":"{{step[5b8c8c75-846a-4263-a342-4072f0ee21f4].teamsite}}","label":"step➛Script step➛teamsite","type":"step","ref":""},{"name":"{{step[5b8c8c75-846a-4263-a342-4072f0ee21f4].teamsiteu}}","label":"step➛Script step➛teamsiteu","type":"step","ref":""},{"name":"{{step[5b8c8c75-846a-4263-a342-4072f0ee21f4].teamsiteur}}","label":"step➛Script step➛teamsiteur","type":"step","ref":""},{"name":"{{step[5b8c8c75-846a-4263-a342-4072f0ee21f4].teamsiteurl}}","label":"step➛Script step➛teamsiteurl","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>60e2f282dbd8fb00f870f26b689619b1</latest_snapshot>
+        <master_snapshot>70e23682dbd8fb00f870f26b68961931</master_snapshot>
+        <name>Get Team Site URL</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 19:08:20</sys_created_on>
+        <sys_id>c9f1b64adb98fb00f870f26b68961926</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Get Team Site URL</sys_name>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c9f1b64adb98fb00f870f26b68961926</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 19:12:25</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c9f1b64adb98fb00f870f26b68961926"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c9f1b64adb98fb00f870f26b68961926"/>
+    <sys_element_mapping action="delete_multiple" query="id=c9f1b64adb98fb00f870f26b68961926"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errormessage</field>
+        <id>c9f1b64adb98fb00f870f26b68961926</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 19:08:24</sys_created_on>
+        <sys_id>7df17a4adb98fb00f870f26b68961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 19:08:24</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c9f1b64adb98fb00f870f26b68961926</table>
+        <value>{{step[4ab4ebe2-b824-4a03-99c1-8e66f6e07365].errormessage}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>groupid</field>
+        <id>c9f1b64adb98fb00f870f26b68961926</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 19:08:24</sys_created_on>
+        <sys_id>31f17a4adb98fb00f870f26b68961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 19:08:24</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c9f1b64adb98fb00f870f26b68961926</table>
+        <value>{{step[4ab4ebe2-b824-4a03-99c1-8e66f6e07365].groupid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>c9f1b64adb98fb00f870f26b68961926</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 19:08:24</sys_created_on>
+        <sys_id>c2f17a4adb98fb00f870f26b68961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 19:08:24</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c9f1b64adb98fb00f870f26b68961926</table>
+        <value>{{step[075dae0a-81f9-48b3-96f3-fb85befa9e3c].status_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>teamsiteurl</field>
+        <id>c9f1b64adb98fb00f870f26b68961926</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 19:12:22</sys_created_on>
+        <sys_id>14e2b282dbd8fb00f870f26b6896196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 19:12:22</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c9f1b64adb98fb00f870f26b68961926</table>
+        <value>{{step[5b8c8c75-846a-4263-a342-4072f0ee21f4].teamsiteurl}}</value>
+    </sys_element_mapping>
+</record_update>

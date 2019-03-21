@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="add user to group">a94da961db143300f870f26b68961975</action_type>
+        <action_type_parent display_value="add user to group">f88bedaddbd03300f870f26b68961918</action_type_parent>
+        <comment>FOR TESTING: Add myself so I can see the Team</comment>
+        <compiled_snapshot>a94da961db143300f870f26b68961975</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create MS Teams Team - Add owner and Create Channel and Team site">edcb3906db987b00f870f26b6896195a</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 18:14:48</sys_created_on>
+        <sys_id>3cb56686dbd0fb00f870f26b68961906</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_action_instance_3cb56686dbd0fb00f870f26b68961906</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 20:21:07</sys_updated_on>
+        <ui_id>1097699c-d508-459b-96c9-311d44f21195</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3cb56686dbd0fb00f870f26b68961906"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3cb56686dbd0fb00f870f26b68961906</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 18:14:48</sys_created_on>
+        <sys_id>7cb56686dbd0fb00f870f26b68961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 18:14:48</sys_updated_on>
+        <value>8a702d66-1804-4ab5-bbed-fe699854d64a</value>
+        <variable display_value="">a54da961db143300f870f26b6896197e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3cb56686dbd0fb00f870f26b68961906"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bearer</field>
+        <id>3cb56686dbd0fb00f870f26b68961906</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 18:14:48</sys_created_on>
+        <sys_id>74b56686dbd0fb00f870f26b68961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 18:14:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a94da961db143300f870f26b68961975</table>
+        <value>{{5a102ba5-4a5d-48b7-90e7-997f6984e509.bearer}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>groupid</field>
+        <id>3cb56686dbd0fb00f870f26b68961906</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 18:14:48</sys_created_on>
+        <sys_id>f8b56686dbd0fb00f870f26b68961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 18:14:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a94da961db143300f870f26b68961975</table>
+        <value>{{15ad9575-0f08-40e5-bb57-5cb50ca039b4.groupid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>userid</field>
+        <id>3cb56686dbd0fb00f870f26b68961906</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 18:14:48</sys_created_on>
+        <sys_id>38b56686dbd0fb00f870f26b68961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 18:14:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a94da961db143300f870f26b68961975</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

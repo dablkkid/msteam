@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>28f46a8edb90fb00f870f26b689619fb</id>
+        <name>Add member of Allocated Resource Plan in MS Teams Team</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 18:11:31</sys_created_on>
+        <sys_id>24f46a8edb90fb00f870f26b689619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add member of Allocated Resource Plan in MS Teams Team</sys_name>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_24f46a8edb90fb00f870f26b689619fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 18:11:31</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

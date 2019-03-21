@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b3edf64edb503f00f870f26b6896190c</id>
+        <name>Create MS Teams Team - Add owner and Create Channel and Team site</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 20:00:41</sys_created_on>
+        <sys_id>3fedf64edb503f00f870f26b6896190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create MS Teams Team - Add owner and Create Channel and Team site</sys_name>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_3fedf64edb503f00f870f26b6896190c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 20:00:41</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

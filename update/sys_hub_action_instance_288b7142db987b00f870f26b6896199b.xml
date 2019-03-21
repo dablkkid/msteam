@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Auth Token (bearer)">2ce5b8a1db503300f870f26b689619ea</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2ce5b8a1db503300f870f26b689619ea</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add member of Allocated Resource Plan in MS Teams Team">04289942db543b00f870f26b6896195d</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 15:10:27</sys_created_on>
+        <sys_id>288b7142db987b00f870f26b6896199b</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_action_instance_288b7142db987b00f870f26b6896199b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-03-21 18:20:07</sys_updated_on>
+        <ui_id>17f36d1b-c97a-4b1f-bf24-7a1cfa1fc35f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=288b7142db987b00f870f26b6896199b"/>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test</internal_name>
+        <label_cache>[{"name":"35e18049-a10c-42f2-92c5-4a9a297f9899.groupid","label":"1➛groupid","reference_display":"groupid","type":"string","base_type":"string"},{"name":"35e18049-a10c-42f2-92c5-4a9a297f9899.errormessage","label":"1➛errormessage","reference_display":"errormessage","type":"string","base_type":"string"},{"name":"35e18049-a10c-42f2-92c5-4a9a297f9899.status","label":"1➛statuscode","reference_display":"statuscode","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>test</name>
+        <outputs/>
+        <parent_flow display_value="test">23e69d02db543b00f870f26b6896194a</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 12:31:22</sys_created_on>
+        <sys_id>ce175dc2db543b00f870f26b689619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_ce175dc2db543b00f870f26b689619f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 12:31:22</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=ce175dc2db543b00f870f26b689619f7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ce175dc2db543b00f870f26b689619f7"/>
+</record_update>

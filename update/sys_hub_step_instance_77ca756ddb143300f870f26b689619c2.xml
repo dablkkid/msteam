@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-20 01:50:26</sys_created_on>
         <sys_id>77ca756ddb143300f870f26b689619c2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>REST step</sys_name>
         <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
         <sys_update_name>sys_hub_step_instance_77ca756ddb143300f870f26b689619c2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 02:36:29</sys_updated_on>
+        <sys_updated_on>2019-03-21 17:32:02</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=77ca756ddb143300f870f26b689619c2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -182,13 +182,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-20 01:50:26</sys_created_on>
         <sys_id>f7ca756ddb143300f870f26b689619cd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 02:36:29</sys_updated_on>
+        <sys_updated_on>2019-03-21 17:32:02</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{
-  "displayName": "Project {{action.teamdisplayname}} Architecture Discussion",
-  "description": "This channel is where we debate all future architecture plans"
+  "displayName": "{{action.teamdisplayname}}",
+  "description": "Channel to discuss project management related topics"
 }</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">

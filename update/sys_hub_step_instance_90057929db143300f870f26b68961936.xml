@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-20 01:25:05</sys_created_on>
         <sys_id>90057929db143300f870f26b68961936</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>REST step</sys_name>
         <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
         <sys_update_name>sys_hub_step_instance_90057929db143300f870f26b68961936</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 01:26:41</sys_updated_on>
+        <sys_updated_on>2019-03-21 20:33:53</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=90057929db143300f870f26b68961936"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -66,6 +66,20 @@
         <sys_updated_on>2019-03-20 01:25:05</sys_updated_on>
         <value>define_connection_inline</value>
         <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>90057929db143300f870f26b68961936</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 19:58:20</sys_created_on>
+        <sys_id>916d7a0adb503f00f870f26b6896192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 19:58:20</sys_updated_on>
+        <value>@odata.id=https://graph.microsoft.com/v1.0/directoryObjects/</value>
+        <variable display_value="">3684ec4787d01300dd637d5e27cb0bcb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -123,6 +137,22 @@
         <value>{}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>90057929db143300f870f26b68961936</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 19:58:20</sys_created_on>
+        <sys_id>d96d7a0adb503f00f870f26b6896192e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 20:33:53</sys_updated_on>
+        <value>{
+  "@odata.id": "https://graph.microsoft.com/v1.0/users/8a702d66-1804-4ab5-bbed-fe699854d64a"
+}</value>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=90057929db143300f870f26b68961936"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
@@ -154,13 +184,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-20 01:25:05</sys_created_on>
         <sys_id>98057929db143300f870f26b6896194d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 01:26:41</sys_updated_on>
+        <sys_updated_on>2019-03-21 20:04:21</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{
-  "@odata.id": "https://graph.microsoft.com/beta/users/{{action.userid}}"
-}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>capabilities</field>
@@ -192,11 +220,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-20 01:25:05</sys_created_on>
         <sys_id>94057929db143300f870f26b6896194e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 01:25:05</sys_updated_on>
+        <sys_updated_on>2019-03-21 19:58:20</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>@odata.id=https://graph.microsoft.com/v1.0/directoryObjects/{{action.userid}}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>

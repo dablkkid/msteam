@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Team Group">0efdb069db503300f870f26b6896199f</action_type>
+        <action_type_parent display_value="Create Team Group">dcdc7ce5db503300f870f26b68961969</action_type_parent>
+        <comment>Create Office365 Group (Team Group)</comment>
+        <compiled_snapshot>0efdb069db503300f870f26b6896199f</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create MS Teams Team - Add owner and Create Channel and Team site">edcb3906db987b00f870f26b6896195a</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 15:11:38</sys_created_on>
+        <sys_id>29cb3906db987b00f870f26b689619c6</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_action_instance_29cb3906db987b00f870f26b689619c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 20:21:07</sys_updated_on>
+        <ui_id>15ad9575-0f08-40e5-bb57-5cb50ca039b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=29cb3906db987b00f870f26b689619c6"/>
+    <sys_element_mapping action="delete_multiple" query="id=29cb3906db987b00f870f26b689619c6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bearer</field>
+        <id>29cb3906db987b00f870f26b689619c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 15:11:38</sys_created_on>
+        <sys_id>e1cb3906db987b00f870f26b689619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 15:11:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0efdb069db503300f870f26b6896199f</table>
+        <value>{{5a102ba5-4a5d-48b7-90e7-997f6984e509.bearer}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>group_description</field>
+        <id>29cb3906db987b00f870f26b689619c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 15:11:38</sys_created_on>
+        <sys_id>69cb3906db987b00f870f26b689619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 15:11:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0efdb069db503300f870f26b6896199f</table>
+        <value>created from PPM Project TEST{{Updated_1.current.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>group_displayname</field>
+        <id>29cb3906db987b00f870f26b689619c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 15:11:38</sys_created_on>
+        <sys_id>a5cb3906db987b00f870f26b689619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 15:11:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0efdb069db503300f870f26b6896199f</table>
+        <value>{{Updated_1.current.short_description}}</value>
+    </sys_element_mapping>
+</record_update>

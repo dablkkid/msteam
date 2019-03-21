@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Team Site URL">70e23682dbd8fb00f870f26b68961931</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>70e23682dbd8fb00f870f26b68961931</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create MS Teams Team - Add owner and Create Channel and Team site">cd5dadaddbd03300f870f26b68961906</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 19:14:55</sys_created_on>
+        <sys_id>61737ac6dbd8fb00f870f26b6896191f</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_action_instance_61737ac6dbd8fb00f870f26b6896191f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-03-21 20:50:55</sys_updated_on>
+        <ui_id>993e51ff-5858-4cda-92e1-54cd0fb89e7e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=61737ac6dbd8fb00f870f26b6896191f"/>
+    <sys_element_mapping action="delete_multiple" query="id=61737ac6dbd8fb00f870f26b6896191f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>projectname</field>
+        <id>61737ac6dbd8fb00f870f26b6896191f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 19:20:51</sys_created_on>
+        <sys_id>d8d4f246db1cfb00f870f26b6896198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 19:20:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_70e23682dbd8fb00f870f26b68961931</table>
+        <value>{{Updated_1.current.short_description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>projectname</field>
+        <id>61737ac6dbd8fb00f870f26b6896191f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 19:14:55</sys_created_on>
+        <sys_id>25737ac6dbd8fb00f870f26b68961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 19:14:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c9f1b64adb98fb00f870f26b68961926</table>
+        <value>{{Updated_1.current.short_description}}</value>
+    </sys_element_mapping>
+</record_update>

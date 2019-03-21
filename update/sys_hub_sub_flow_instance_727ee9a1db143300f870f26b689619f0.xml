@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_sub_flow_instance">
     <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
-        <comment/>
+        <comment>Use a registered app in azure AD  to get bearer (auth token) that is used in every step of this flow to connect to MS Api</comment>
         <display_text/>
-        <flow display_value="Test add user to group">cd5dadaddbd03300f870f26b68961906</flow>
+        <flow display_value="Create MS Teams Team - Add owner and Create Channel and Team site">cd5dadaddbd03300f870f26b68961906</flow>
         <inputs/>
         <order>1</order>
         <parent_ui_id/>
-        <subflow display_value="Get Authentication Token from MS">dfbe7c69db503300f870f26b689619c2</subflow>
+        <subflow display_value="Get Authentication Token from MS">1bba38a5db503300f870f26b68961929</subflow>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-20 00:56:35</sys_created_on>
         <sys_id>727ee9a1db143300f870f26b689619f0</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>162</sys_mod_count>
         <sys_name/>
         <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
         <sys_update_name>sys_hub_sub_flow_instance_727ee9a1db143300f870f26b689619f0</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 18:22:38</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-03-21 20:50:55</sys_updated_on>
         <ui_id>5a102ba5-4a5d-48b7-90e7-997f6984e509</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=727ee9a1db143300f870f26b689619f0"/>

@@ -38,7 +38,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Test add user to group">cd5dadaddbd03300f870f26b68961906</model>
+        <model display_value="Create MS Teams Team - Add owner and Create Channel and Team site">cd5dadaddbd03300f870f26b68961906</model>
         <model_id>cd5dadaddbd03300f870f26b68961906</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_cd5dadaddbd03300f870f26b68961906</name>

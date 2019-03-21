@@ -2,26 +2,26 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Create Team Group">dcdc7ce5db503300f870f26b68961969</action_type>
+        <action_type display_value="Create Team Group">0efdb069db503300f870f26b6896199f</action_type>
         <action_type_parent/>
-        <comment/>
-        <compiled_snapshot/>
+        <comment>Create Office365 Group (Team Group)</comment>
+        <compiled_snapshot>0efdb069db503300f870f26b6896199f</compiled_snapshot>
         <display_text/>
-        <flow display_value="Test add user to group">cd5dadaddbd03300f870f26b68961906</flow>
+        <flow display_value="Create MS Teams Team - Add owner and Create Channel and Team site">cd5dadaddbd03300f870f26b68961906</flow>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-20 01:59:11</sys_created_on>
         <sys_id>bfcc31eddb143300f870f26b68961946</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>154</sys_mod_count>
         <sys_name/>
         <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
         <sys_update_name>sys_hub_action_instance_bfcc31eddb143300f870f26b68961946</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 18:22:38</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-03-21 20:50:55</sys_updated_on>
         <ui_id>15ad9575-0f08-40e5-bb57-5cb50ca039b4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bfcc31eddb143300f870f26b68961946"/>
@@ -58,6 +58,18 @@
         <field>bearer</field>
         <id>bfcc31eddb143300f870f26b68961946</id>
         <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 15:11:36</sys_created_on>
+        <sys_id>41cbf506db987b00f870f26b6896195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 15:11:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0efdb069db503300f870f26b6896199f</table>
+        <value>{{5a102ba5-4a5d-48b7-90e7-997f6984e509.bearer}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bearer</field>
+        <id>bfcc31eddb143300f870f26b68961946</id>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-20 01:59:11</sys_created_on>
         <sys_id>bfcc31eddb143300f870f26b6896194b</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -70,6 +82,18 @@
         <field>group_description</field>
         <id>bfcc31eddb143300f870f26b68961946</id>
         <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 15:11:36</sys_created_on>
+        <sys_id>c5cbf506db987b00f870f26b6896195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 15:11:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0efdb069db503300f870f26b6896199f</table>
+        <value>created from PPM Project TEST{{Updated_1.current.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>group_description</field>
+        <id>bfcc31eddb143300f870f26b68961946</id>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-20 01:59:11</sys_created_on>
         <sys_id>37cc31eddb143300f870f26b6896194c</sys_id>
         <sys_mod_count>1</sys_mod_count>
@@ -77,6 +101,18 @@
         <sys_updated_on>2019-03-20 17:39:55</sys_updated_on>
         <table>var__m_sys_hub_action_input_dcdc7ce5db503300f870f26b68961969</table>
         <value>created from PPM Project TEST{{Updated_1.current.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>group_displayname</field>
+        <id>bfcc31eddb143300f870f26b68961946</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-21 15:11:36</sys_created_on>
+        <sys_id>05cbf506db987b00f870f26b6896195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-21 15:11:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0efdb069db503300f870f26b6896199f</table>
+        <value>{{Updated_1.current.short_description}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>group_displayname</field>
