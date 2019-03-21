@@ -2,7 +2,7 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"67ba38a5db503300f870f26b689619a5","name":"plan"}}</plan>
         <plan_id display_value="Get Authentication Token from MS">7d3ba8a9db103300f870f26b68961910</plan_id>
-        <snapshot>dfbe7c69db503300f870f26b689619c2</snapshot>
+        <snapshot>94a909f1db9c3300f870f26b68961984</snapshot>
         <sys_class_name>sys_flow_subflow_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 21:10:32</sys_created_on>

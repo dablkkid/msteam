@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>f88bedaddbd03300f870f26b68961918</copied_from>
+        <copied_from_name>add user to group</copied_from_name>
+        <description/>
+        <internal_name>get_user_id_from_ms</internal_name>
+        <label_cache>[{"name":"{{action.bearer}}","label":"action➛bearer","type":"action","ref":""},{"name":"{{action.userprincipalname}}","label":"action➛userPrincipalName","type":"action","ref":""},{"name":"{{step[b6b7a9f3-9bc5-45d8-9b13-9140a183f01c].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[b6b7a9f3-9bc5-45d8-9b13-9140a183f01c].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[b6b7a9f3-9bc5-45d8-9b13-9140a183f01c].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[cdd52118-a621-4f4e-808a-217f0188006e].u}}","label":"step➛Script step➛u","type":"step","ref":""},{"name":"{{step[cdd52118-a621-4f4e-808a-217f0188006e].us}}","label":"step➛Script step➛us","type":"step","ref":""},{"name":"{{step[cdd52118-a621-4f4e-808a-217f0188006e].use}}","label":"step➛Script step➛use","type":"step","ref":""},{"name":"{{step[cdd52118-a621-4f4e-808a-217f0188006e].user}}","label":"step➛Script step➛user","type":"step","ref":""},{"name":"{{step[cdd52118-a621-4f4e-808a-217f0188006e].useri}}","label":"step➛Script step➛useri","type":"step","ref":""},{"name":"{{step[cdd52118-a621-4f4e-808a-217f0188006e].userid}}","label":"step➛Script step➛userid","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>8228dd71db907300f870f26b689619a0</latest_snapshot>
+        <master_snapshot>d228dd71db907300f870f26b689619db</master_snapshot>
+        <name>Get User ID from MS </name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 17:53:14</sys_created_on>
+        <sys_id>03275171db907300f870f26b68961914</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Get User ID from MS </sys_name>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_03275171db907300f870f26b68961914</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 17:57:34</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=03275171db907300f870f26b68961914"/>
+    <sys_variable_value action="delete_multiple" query="document_key=03275171db907300f870f26b68961914"/>
+    <sys_element_mapping action="delete_multiple" query="id=03275171db907300f870f26b68961914"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errormessage</field>
+        <id>03275171db907300f870f26b68961914</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 17:53:15</sys_created_on>
+        <sys_id>2b275171db907300f870f26b689619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 17:53:15</sys_updated_on>
+        <table>var__m_sys_hub_action_output_03275171db907300f870f26b68961914</table>
+        <value>{{step[b6b7a9f3-9bc5-45d8-9b13-9140a183f01c].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>statuscode</field>
+        <id>03275171db907300f870f26b68961914</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 17:53:15</sys_created_on>
+        <sys_id>eb275171db907300f870f26b689619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 17:53:15</sys_updated_on>
+        <table>var__m_sys_hub_action_output_03275171db907300f870f26b68961914</table>
+        <value>{{step[b6b7a9f3-9bc5-45d8-9b13-9140a183f01c].status_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>userid</field>
+        <id>03275171db907300f870f26b68961914</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 17:55:36</sys_created_on>
+        <sys_id>35b75971db907300f870f26b689619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 17:55:36</sys_updated_on>
+        <table>var__m_sys_hub_action_output_03275171db907300f870f26b68961914</table>
+        <value>{{step[cdd52118-a621-4f4e-808a-217f0188006e].userid}}</value>
+    </sys_element_mapping>
+</record_update>

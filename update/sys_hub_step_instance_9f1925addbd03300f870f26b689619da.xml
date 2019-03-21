@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create Team Group">dcdc7ce5db503300f870f26b68961969</action>
+        <cid>4ab4ebe2-b824-4a03-99c1-8e66f6e07365</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 00:33:08</sys_created_on>
+        <sys_id>9f1925addbd03300f870f26b689619da</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_step_instance_9f1925addbd03300f870f26b689619da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 18:36:51</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9f1925addbd03300f870f26b689619da"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9f1925addbd03300f870f26b689619da</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 00:33:09</sys_created_on>
+        <sys_id>a31925addbd03300f870f26b689619fb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 12:07:02</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+var statuscode = inputs.statuscode
+if (statuscode != 201) {
+  		outputs.errormessage = "Error while trying to create the MS Teams Group, please check logs";
+} else {
+  
+	var parsedResponse = JSON.parse(inputs.response);
+	var myid = parsedResponse.id;
+	outputs.groupid = myid;
+  
+		}
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9f1925addbd03300f870f26b689619da</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 00:33:09</sys_created_on>
+        <sys_id>ef1925addbd03300f870f26b689619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 00:33:09</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9f1925addbd03300f870f26b689619da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>9f1925addbd03300f870f26b689619da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 00:33:09</sys_created_on>
+        <sys_id>ab1925addbd03300f870f26b689619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 00:33:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errormessage</field>
+        <id>9f1925addbd03300f870f26b689619da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 12:05:40</sys_created_on>
+        <sys_id>ff970475dbd83300f870f26b689619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 12:05:40</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9f1925addbd03300f870f26b689619da</table>
+        <value>{{step[075dae0a-81f9-48b3-96f3-fb85befa9e3c].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>9f1925addbd03300f870f26b689619da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 00:33:09</sys_created_on>
+        <sys_id>af1925addbd03300f870f26b689619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 00:33:09</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9f1925addbd03300f870f26b689619da</table>
+        <value>{{step[075dae0a-81f9-48b3-96f3-fb85befa9e3c].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>9f1925addbd03300f870f26b689619da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 00:33:09</sys_created_on>
+        <sys_id>6f1925addbd03300f870f26b689619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 00:33:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>statuscode</field>
+        <id>9f1925addbd03300f870f26b689619da</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 12:05:40</sys_created_on>
+        <sys_id>b7970475dbd83300f870f26b689619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 12:05:40</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9f1925addbd03300f870f26b689619da</table>
+        <value>{{step[075dae0a-81f9-48b3-96f3-fb85befa9e3c].status_code}}</value>
+    </sys_element_mapping>
+</record_update>

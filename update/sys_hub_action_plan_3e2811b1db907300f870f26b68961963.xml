@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_plan">
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get User ID from MS ">03275171db907300f870f26b68961914</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"3e2811b1db907300f870f26b68961963","name":"plan"}}</plan>
+        <snapshot>8228dd71db907300f870f26b689619a0</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-20 17:57:34</sys_created_on>
+        <sys_id>3e2811b1db907300f870f26b68961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>03275171db907300f870f26b68961914</sys_name>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_action_plan_3e2811b1db907300f870f26b68961963</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-20 17:57:34</sys_updated_on>
+    </sys_hub_action_plan>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">391c7ce5db503300f870f26b68961918</block>
-        <comment/>
+        <comment>Set Bearer Variable</comment>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
@@ -18,14 +18,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 21:16:25</sys_created_on>
         <sys_id>711c7ce5db503300f870f26b6896191a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
         <sys_update_name>sys_hub_flow_logic_711c7ce5db503300f870f26b6896191a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-19 21:28:00</sys_updated_on>
+        <sys_updated_on>2019-03-20 16:54:04</sys_updated_on>
         <ui_id>986cca90-a4d3-4481-a079-29377d17afcd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

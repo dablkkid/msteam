@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="teamid" label="channelid" language="en" table="var__m_sys_hub_action_output_469c09b5db9c3300f870f26b68961965">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>teamid</element>
+            <help/>
+            <hint/>
+            <label>channelid</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_469c09b5db9c3300f870f26b68961965</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-20 17:07:01</sys_created_on>
+            <sys_id>469c09b5db9c3300f870f26b689619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>channelid</sys_name>
+            <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_469c09b5db9c3300f870f26b68961965_teamid_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-20 17:07:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
