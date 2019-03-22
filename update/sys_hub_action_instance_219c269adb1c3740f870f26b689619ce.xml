@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="add user to group">f88bedaddbd03300f870f26b68961918</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="test RP ">94e46e1adbd03740f870f26b68961909</flow>
+        <order>1.1</order>
+        <parent_ui_id>0a047fd6-db3c-4a85-b451-7ba66b3fdae0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 13:23:22</sys_created_on>
+        <sys_id>219c269adb1c3740f870f26b689619ce</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_action_instance_219c269adb1c3740f870f26b689619ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 13:29:32</sys_updated_on>
+        <ui_id>e405ca85-bda6-4972-9f32-8386ec66a81b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=219c269adb1c3740f870f26b689619ce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>219c269adb1c3740f870f26b689619ce</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 13:23:22</sys_created_on>
+        <sys_id>219c269adb1c3740f870f26b689619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 13:23:22</sys_updated_on>
+        <value>nbjj</value>
+        <variable display_value="">6bdce121db143300f870f26b689619e3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=219c269adb1c3740f870f26b689619ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bearer</field>
+        <id>219c269adb1c3740f870f26b689619ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 13:23:22</sys_created_on>
+        <sys_id>299c269adb1c3740f870f26b689619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 13:23:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f88bedaddbd03300f870f26b68961918</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>groupid</field>
+        <id>219c269adb1c3740f870f26b689619ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 13:23:22</sys_created_on>
+        <sys_id>ad9c269adb1c3740f870f26b689619d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 13:29:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f88bedaddbd03300f870f26b68961918</table>
+        <value>{{Updated_1.current.task.u_ms_teams_groupid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>userid</field>
+        <id>219c269adb1c3740f870f26b689619ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 13:23:22</sys_created_on>
+        <sys_id>e99c269adb1c3740f870f26b689619d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 13:29:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f88bedaddbd03300f870f26b68961918</table>
+        <value>{{0a047fd6-db3c-4a85-b451-7ba66b3fdae0.item.u_domainsysid}}</value>
+    </sys_element_mapping>
+</record_update>

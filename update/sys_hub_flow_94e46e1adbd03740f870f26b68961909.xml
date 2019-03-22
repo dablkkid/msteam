@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_rp</internal_name>
+        <label_cache>[{"name":"ba1e3df1-4121-4346-ace7-0b9068718944.errormessage","label":"1➛errormessage","reference_display":"errormessage","type":"string","base_type":"string"},{"name":"ba1e3df1-4121-4346-ace7-0b9068718944.status","label":"1➛status","reference_display":"status","type":"string","base_type":"string"},{"name":"ba1e3df1-4121-4346-ace7-0b9068718944.bearer","label":"1➛bearer","type":"string","base_type":"string"},{"name":"0a047fd6-db3c-4a85-b451-7ba66b3fdae0.item.user.u_domainsysid","label":"1➛Resource Allocation Record➛Resource➛domainsysid","reference":"","reference_display":"domainsysid","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"u_domainsysid"},{"name":"0a047fd6-db3c-4a85-b451-7ba66b3fdae0.item.resource_plan.task.u_ms_teams_groupid","label":"1➛Resource Allocation Record➛Resource plan➛Task➛ms teams groupid","reference":"","reference_display":"ms teams groupid","type":"string","base_type":"string","parent_table_name":"task","column_name":"u_ms_teams_groupid"},{"name":"e405ca85-bda6-4972-9f32-8386ec66a81b.statuscode","label":"1.1➛statuscode","reference_display":"statuscode","type":"string","base_type":"string"},{"name":"e405ca85-bda6-4972-9f32-8386ec66a81b.errormessage","label":"1.1➛errormessage","reference_display":"errormessage","type":"string","base_type":"string"},{"name":"0a047fd6-db3c-4a85-b451-7ba66b3fdae0.item","label":"1➛Resource Allocation Record","reference":"resource_allocation","reference_display":"Resource Allocation Record","type":"reference","base_type":"reference"},{"name":"Updated_1.current.sys_id","label":"Trigger➛Resource Plan Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"resource_plan","column_name":"sys_id"},{"name":"cc3259d8-cf55-437f-86cf-457f75dc7f21.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"cc3259d8-cf55-437f-86cf-457f75dc7f21.Table","label":"1➛Resource Allocation Table","reference":"resource_allocation","reference_display":"Resource Allocation","type":"table_name","base_type":"table_name"},{"name":"cc3259d8-cf55-437f-86cf-457f75dc7f21.Records","label":"1➛Resource Allocation Records","reference":"resource_allocation","reference_display":"Resource Allocation","type":"records","base_type":"records"},{"name":"Updated_1.current.members_list","label":"Trigger➛Resource Plan Record➛Members list","reference":"sys_user","reference_display":"Members list","type":"glide_list","base_type":"glide_list","parent_table_name":"resource_plan","column_name":"members_list"},{"name":"0a047fd6-db3c-4a85-b451-7ba66b3fdae0.item.u_domainsysid","label":"1➛Members list Record➛domainsysid","reference":"","reference_display":"domainsysid","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"u_domainsysid"},{"name":"Updated_1.current.task.u_ms_teams_groupid","label":"Trigger➛Resource Plan Record➛Task➛ms teams groupid","reference":"","reference_display":"ms teams groupid","type":"string","base_type":"string","parent_table_name":"task","column_name":"u_ms_teams_groupid"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>test RP </name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 12:49:42</sys_created_on>
+        <sys_id>94e46e1adbd03740f870f26b68961909</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>test RP </sys_name>
+        <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
+        <sys_update_name>sys_hub_flow_94e46e1adbd03740f870f26b68961909</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 13:29:32</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=94e46e1adbd03740f870f26b68961909"/>
+    <sys_variable_value action="delete_multiple" query="document_key=94e46e1adbd03740f870f26b68961909"/>
+</record_update>
