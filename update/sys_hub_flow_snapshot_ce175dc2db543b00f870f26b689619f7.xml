@@ -14,7 +14,7 @@
         <master>true</master>
         <name>test</name>
         <outputs/>
-        <parent_flow display_value="test">23e69d02db543b00f870f26b6896194a</parent_flow>
+        <parent_flow/>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <sc_callable>false</sc_callable>
