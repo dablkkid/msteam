@@ -11,7 +11,7 @@
         <description/>
         <internal_name>create_channel_in_team</internal_name>
         <label_cache>[{"name":"{{action.groupid}}","label":"action➛teamid","type":"action","ref":""},{"name":"{{action.bearer}}","label":"action➛bearer","type":"action","ref":""},{"name":"{{action.teamdisplayname}}","label":"action➛teamdisplayname","type":"action","ref":""},{"name":"{{step[b6b7a9f3-9bc5-45d8-9b13-9140a183f01c].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[aafaea12-a074-4d8a-90a9-884ec81abaab].c}}","label":"step➛Script step➛c","type":"step","ref":""},{"name":"{{step[aafaea12-a074-4d8a-90a9-884ec81abaab].ch}}","label":"step➛Script step➛ch","type":"step","ref":""},{"name":"{{step[aafaea12-a074-4d8a-90a9-884ec81abaab].cha}}","label":"step➛Script step➛cha","type":"step","ref":""},{"name":"{{step[aafaea12-a074-4d8a-90a9-884ec81abaab].chan}}","label":"step➛Script step➛chan","type":"step","ref":""},{"name":"{{step[aafaea12-a074-4d8a-90a9-884ec81abaab].chann}}","label":"step➛Script step➛chann","type":"step","ref":""},{"name":"{{step[aafaea12-a074-4d8a-90a9-884ec81abaab].channe}}","label":"step➛Script step➛channe","type":"step","ref":""},{"name":"{{step[aafaea12-a074-4d8a-90a9-884ec81abaab].channel}}","label":"step➛Script step➛channel","type":"step","ref":""},{"name":"{{step[aafaea12-a074-4d8a-90a9-884ec81abaab].channeli}}","label":"step➛Script step➛channeli","type":"step","ref":""},{"name":"{{step[aafaea12-a074-4d8a-90a9-884ec81abaab].channelid}}","label":"step➛Script step➛channelid","type":"step","ref":""},{"name":"{{step[b6b7a9f3-9bc5-45d8-9b13-9140a183f01c].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[b6b7a9f3-9bc5-45d8-9b13-9140a183f01c].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>c3eb5a4adb5cbb00f870f26b68961935</latest_snapshot>
+        <latest_snapshot>c3d5d32bdb103300f870f26b689619db</latest_snapshot>
         <master_snapshot>511c75addb143300f870f26b68961992</master_snapshot>
         <name>Create Channel in team</name>
         <outputs/>
@@ -21,14 +21,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-20 01:50:26</sys_created_on>
         <sys_id>abca756ddb143300f870f26b689619b2</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Create Channel in team</sys_name>
         <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_abca756ddb143300f870f26b689619b2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-21 17:32:08</sys_updated_on>
+        <sys_updated_on>2019-03-26 13:36:10</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
