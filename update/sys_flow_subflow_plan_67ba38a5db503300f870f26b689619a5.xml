@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_subflow_plan">
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"67ba38a5db503300f870f26b689619a5","name":"plan"}}</plan>
+        <plan>com.snc.process_flow.engine.ProcessPlan@699394</plan>
         <plan_id display_value="Get Authentication Token from MS">7d3ba8a9db103300f870f26b68961910</plan_id>
-        <snapshot>94a909f1db9c3300f870f26b68961984</snapshot>
+        <snapshot>1bba38a5db503300f870f26b68961929</snapshot>
         <sys_class_name>sys_flow_subflow_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 21:10:32</sys_created_on>
         <sys_id>67ba38a5db503300f870f26b689619a5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>7d3ba8a9db103300f870f26b68961910</sys_name>
         <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
         <sys_update_name>sys_flow_subflow_plan_67ba38a5db503300f870f26b689619a5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-19 21:26:45</sys_updated_on>
+        <sys_updated_on>2019-03-29 19:59:53</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>

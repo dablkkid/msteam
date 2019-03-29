@@ -10,8 +10,8 @@
         <copied_from_name/>
         <description/>
         <internal_name>test_flow</internal_name>
-        <label_cache>[{"name":"44ed8edc-1965-4bb3-ae64-604231d78594.status","label":"1➛status","type":"string","base_type":"string"},{"name":"44ed8edc-1965-4bb3-ae64-604231d78594.bearer","label":"1➛bearer","reference_display":"bearer","type":"string","base_type":"string"}]</label_cache>
-        <latest_snapshot>94a909f1db9c3300f870f26b68961984</latest_snapshot>
+        <label_cache>[{"name":"44ed8edc-1965-4bb3-ae64-604231d78594.bearer","label":"1➛bearer","reference_display":"bearer","type":"string","base_type":"string"},{"name":"44ed8edc-1965-4bb3-ae64-604231d78594.status","label":"1➛status","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot>1bba38a5db503300f870f26b68961929</latest_snapshot>
         <master_snapshot>1bba38a5db503300f870f26b68961929</master_snapshot>
         <name>Get Authentication Token from MS</name>
         <outputs/>
@@ -20,19 +20,19 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-19 20:02:41</sys_created_on>
         <sys_id>7d3ba8a9db103300f870f26b68961910</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Get Authentication Token from MS</sys_name>
         <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
         <sys_update_name>sys_hub_flow_7d3ba8a9db103300f870f26b68961910</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-20 16:54:04</sys_updated_on>
+        <sys_updated_on>2019-03-29 19:59:53</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=7d3ba8a9db103300f870f26b68961910"/>

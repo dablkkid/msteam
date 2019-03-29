@@ -6,7 +6,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
-        <flow display_value="Get Authentication Token from MS">7d3ba8a9db103300f870f26b68961910</flow>
+        <flow display_value="Get Authentication Token from MS">1bba38a5db503300f870f26b68961929</flow>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>3</order>
@@ -15,19 +15,19 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-20 15:55:08</sys_created_on>
-        <sys_id>8d2c7c79db5c3300f870f26b68961994</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2019-03-29 19:59:51</sys_created_on>
+        <sys_id>317ac43cdba07300f870f26b68961997</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
-        <sys_update_name>sys_hub_flow_logic_8d2c7c79db5c3300f870f26b68961994</sys_update_name>
+        <sys_update_name>sys_hub_flow_logic_317ac43cdba07300f870f26b68961997</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-29 19:59:53</sys_updated_on>
+        <sys_updated_on>2019-03-29 19:59:52</sys_updated_on>
         <ui_id>d49722c8-73a7-47bb-8466-32efbcc3a3b5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=8d2c7c79db5c3300f870f26b68961994"/>
+    <sys_variable_value action="delete_multiple" query="document_key=317ac43cdba07300f870f26b68961997"/>
 </record_update>
