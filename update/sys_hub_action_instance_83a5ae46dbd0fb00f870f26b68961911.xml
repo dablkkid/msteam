@@ -14,18 +14,44 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-21 18:14:41</sys_created_on>
         <sys_id>83a5ae46dbd0fb00f870f26b68961911</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_name/>
         <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
         <sys_update_name>sys_hub_action_instance_83a5ae46dbd0fb00f870f26b68961911</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-03-21 20:50:56</sys_updated_on>
+        <sys_updated_on>2019-03-27 12:40:47</sys_updated_on>
         <ui_id>1097699c-d508-459b-96c9-311d44f21195</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=83a5ae46dbd0fb00f870f26b68961911"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>83a5ae46dbd0fb00f870f26b68961911</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-27 12:38:20</sys_created_on>
+        <sys_id>66329044db203300f870f26b689619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-27 12:38:20</sys_updated_on>
+        <value>8a702d66-1804-4ab5-bbed-fe699854d64a</value>
+        <variable display_value="">a4f893dedb54b740f870f26b68961921</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=83a5ae46dbd0fb00f870f26b68961911"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>action_userid</field>
+        <id>83a5ae46dbd0fb00f870f26b68961911</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-27 12:38:20</sys_created_on>
+        <sys_id>e2329044db203300f870f26b689619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-27 12:38:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a94da961db143300f870f26b68961975</table>
+        <value/>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>bearer</field>
         <id>83a5ae46dbd0fb00f870f26b68961911</id>

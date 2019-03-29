@@ -5,7 +5,7 @@
         <action_type display_value="add user to group">a94da961db143300f870f26b68961975</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>a94da961db143300f870f26b68961975</compiled_snapshot>
         <display_text/>
         <flow display_value="Add member of Allocated Resource Plan in MS Teams Team">04289942db543b00f870f26b6896195d</flow>
         <order>4.1</order>
@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-22 18:34:03</sys_created_on>
         <sys_id>20b3bf5edb14f740f870f26b68961952</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
         <sys_update_name>sys_hub_action_instance_20b3bf5edb14f740f870f26b68961952</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-23 13:05:45</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-03-27 12:42:47</sys_updated_on>
         <ui_id>b69f107b-aa7a-446f-9a6b-e21aceccdf7b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=20b3bf5edb14f740f870f26b68961952"/>

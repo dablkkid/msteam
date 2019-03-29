@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-20 00:56:35</sys_created_on>
         <sys_id>367ee9a1db143300f870f26b689619f7</sys_id>
-        <sys_mod_count>162</sys_mod_count>
+        <sys_mod_count>170</sys_mod_count>
         <sys_name/>
         <sys_package display_value="qc msteams" source="x_194987_qc_msteam">7c012061db103300f870f26b68961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="qc msteams">7c012061db103300f870f26b68961950</sys_scope>
         <sys_update_name>sys_hub_action_instance_367ee9a1db143300f870f26b689619f7</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-03-21 20:50:55</sys_updated_on>
+        <sys_updated_on>2019-03-27 12:40:47</sys_updated_on>
         <ui_id>5c608ef3-189d-46ec-9db2-242967ed65b9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=367ee9a1db143300f870f26b689619f7"/>
@@ -40,6 +40,18 @@
         <variable display_value="">ce5ca5eddbd03300f870f26b689619e7</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=367ee9a1db143300f870f26b689619f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>action_userid</field>
+        <id>367ee9a1db143300f870f26b689619f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-27 12:38:20</sys_created_on>
+        <sys_id>2e329044db203300f870f26b68961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-27 12:38:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a94da961db143300f870f26b68961975</table>
+        <value>{{Updated_1.current.project_manager.u_domainsysid}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>bearer</field>
         <id>367ee9a1db143300f870f26b689619f7</id>
